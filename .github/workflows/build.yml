@@ -28,7 +28,7 @@ jobs:
       uses: geode-sdk/build-geode-mod@main
       with:
         sdk: nightly
-       combine: true
+        combine: true
 
   package:
     name: Package builds
